@@ -94,8 +94,8 @@ This is the Landing/Home page  where one can navigate to other pages:
 ### Overview 
 The Overview page shows the summary of the insight obtained from the analysis of the data:
 
-Overview                                                                                     |  Overview with menu
-:--------------------------------------------------------------------------------------------|-----------------------------------------------------------------
+Overview                  |  Overview with menu
+:-------------------------|-----------------------------------------------------------------
 ![overview](overview.png) | ![overview1](overview1.png)
 #### Findings
 
@@ -126,7 +126,7 @@ This page shows the analysis of amount earned as bonus by the genders across the
 
 ### Salary structure to compliance
 This page shows the analysis of how compliant the salary structure of the genders across the regions and different departments aligns with the minimum wage 
-![](bonus_performance.png)
+![](salary_to_compliance.png)
 #### Findings
 
 
