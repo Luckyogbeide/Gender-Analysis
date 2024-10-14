@@ -1,7 +1,8 @@
 # Gender Analysis for Palmoria Group
 
 ## Project Overview
-![data-analytics-trends](https://github.com/user-attachments/assets/58027b10-39e0-4f51-9656-4533cb7f5bc3)
+![data-analytics-trends](data-analytics-trends.jpg)
+
 
 The Palmoria Group, a prominent manufacturing company headquartered in Nigeria, is currently grappling with critical issues surrounding gender inequality across its three regional divisions. Recently, the company has come under scrutiny in the media, with a notable headline branding it a "Manufacturing Patriarchy." This negative portrayal poses a significant threat to Palmoria's strategic goals of regional and international expansion. Key concerns, such as gender pay disparities and broader systemic inequalities, have emerged as potential challenges that, if left unresolved, may escalate further. This analysis seeks to provide a comprehensive assessment of the Palmoria Group's stance on gender inequality, offering insights to guide necessary interventions and ensure alignment with best practices for equity and inclusion.
 ## Problem Statement
@@ -52,12 +53,28 @@ DATATABLE(
     }
 )
 ~~~
+The rating in the dimension table (Bonus) is mapped to the fact table (employee dataset) using Data Analysis Expressions(DAX) below
+ ~~~ DAX
+RatingPercentage = 
+VAR RatingColumn = 'Employee Dataset'[Rating]
+VAR DepartmentColumn = 'Employee Dataset'[Department]
 
+RETURN 
+SWITCH(
+    TRUE(),
+    RatingColumn = "Very Poor", RELATED('Bonus'[Very Poor]),
+    RatingColumn = "Poor", RELATED('Bonus'[Poor]),
+    RatingColumn = "Average", RELATED('Bonus'[Average]),
+    RatingColumn = "Good", RELATED('Bonus'[Good]),
+    RatingColumn = "Very Good", RELATED('Bonus'[Very Good]),
+    0  // Default value if no match
+)
+~~~
 Employees' salaries were dynamically assigned to the appropriate salary ranges, ensuring accurate classification and analysis. 
 -  Several measures were implemented to facilitate effective visualization and reporting of the datasets.
 ## Modelling
 A star schema was adopted in the modelling. The dimension tables are joined to the fact table on one-to-many relationship
-![Data_modeling](https://github.com/user-attachments/assets/27216ef7-21cb-4918-a9c8-a5361c2cdb7f)
+![Data_modeling](Data_modeling.png)
 
 ## Visualization
 The report comprises of eight(8) pages:
@@ -72,31 +89,44 @@ The report comprises of eight(8) pages:
 
 ### Landing page
 This is the Landing/Home page  where one can navigate to other pages:
-![landing_page](https://github.com/user-attachments/assets/2ab51f55-f692-4ebf-bb86-8e734c45b604)
+![landing_page](landing_page.png)
 
 ### Overview 
 The Overview page shows the summary of the insight obtained from the analysis of the data:
 
 Overview                                                                                     |  Overview with menu
 :--------------------------------------------------------------------------------------------|-----------------------------------------------------------------
-![overview](https://github.com/user-attachments/assets/21f83ba3-3fd6-48f9-8098-8d2070e209fc) | ![overview1](https://github.com/user-attachments/assets/e5a9890a-447a-4235-9c8f-bbc45388b7c9)
+![overview](overview.png) | ![overview1](overview1.png)
 #### Findings
 
 ### Gender distribution
 The page distribution shows the analysis of the gender distribution across different regions and departments
-![Gender_distribution](https://github.com/user-attachments/assets/12c43f72-eb80-46e7-a9bc-5bc09ae26c15)
+![Gender_distribution](Gender_distribution.png)
 #### Findings
 
 ### Salary structure
 This page shows the analysis of salary structure amongst the genders across different regions and departments
-![salary_structure](https://github.com/user-attachments/assets/a91d8d1f-b651-4134-95b0-df17140c7e5b)
+![salary_structure](salary_structure.png)
 #### Findings
 
 ### Performance rating
 This page shows the analysis of the performance rating of the genders across different regions and departments
-![performance_rating](https://github.com/user-attachments/assets/8ef79385-1208-4cf7-9307-30a3bf4eef79)
+![performance_rating](performance_rating.png)
+#### Findings
 
+### Salary and Bonus
+This page shows analysis of total payout (i.e. salary and bonus) to different genders across the regions and different departments
+![](Bonus_and_salary.png)
+#### Findings
 
+### Bonus performance
+This page shows the analysis of amount earned as bonus by the genders across the regions and different departments
+![](bonus_performance.png)
+#### Findings
 
+### Salary structure to compliance
+This page shows the analysis of how compliant the salary structure of the genders across the regions and different departments aligns with the minimum wage 
+![](bonus_performance.png)
+#### Findings
 
 
