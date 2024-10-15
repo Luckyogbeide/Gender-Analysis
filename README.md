@@ -97,21 +97,36 @@ The Overview page shows the summary of the insight obtained from the analysis of
 Overview                  |  Overview with menu
 :-------------------------|-----------------------------------------------------------------
 ![overview](overview.png) | ![overview1](overview1.png)
-#### Findings
+#### `Findings`
+- The analysis reveals significant disparities in both employee count and salary distribution across genders within the Palmoria Group. Males dominate the workforce with a total of 462 employees, representing a substantial 1,084.62% increase compared to the "Unknown" gender category, which has the lowest count at just 39 employees.
+
+- In terms of salary distribution, males also receive the highest portion of total salaries, accounting for 50.29%. This is followed closely by females, who receive 48.28% of the total compensation. However, individuals classified under "Unknown" gender are disproportionately affected, receiving only 4.43% of the total salary distribution.
 
 ### Gender distribution
 The page distribution shows the analysis of the gender distribution across different regions and departments
 ![Gender_distribution](Gender_distribution.png)
-#### Findings
+#### `Findings`
+- The analysis of the Palmoria Group's workforce across its three regions reveals significant regional and gender-based disparities, particularly in the Kaduna region. Kaduna stands out as the region with the highest number of employees overall. Notably, male employees in Kaduna account for 19.29% of the total workforce, reflecting a pronounced gender imbalance.
+
+- Kaduna also exhibits the widest gender distribution gap between male and female employees, with males having the highest average employee count at 154, followed by females at 144, and those categorized as "Unknown" significantly lower at 13.
+
+- In the Legal department, the gender imbalance persists, with male employees making up 5.25% of the workforce. This department also reports the highest disparity between male and female employees, further underscoring the need for targeted interventions to address these imbalances.
+
+These findings highlight critical gender disparities across the company's operations, particularly in the Kaduna region and the Legal department, where male dominance in workforce representation is most pronounced. Addressing these gaps will be essential for fostering a more inclusive and equitable work environment
 
 ### Salary structure
 This page shows the analysis of salary structure amongst the genders across different regions and departments
 ![salary_structure](salary_structure.png)
-#### Findings
+#### `Findings`
+- The salary analysis reveals significant disparities in compensation across genders within the Palmoria Group. Males hold the highest total salary, amounting to ₦34,621,050, followed by females at ₦31,172,540, and those classified as "Unknown" with a considerably lower total of ₦3,050,020.
+- In the Kaduna region, males account for 19.60% of the total salary distribution, reinforcing the gender-based salary gap in this region. On average, males also receive the highest salary, with an average total of ₦11,540,350, followed by females at ₦10,390,846.67, while the "Unknown" category trails significantly at ₦1,016,673.33.
+- The Legal department further highlights the pronounced salary disparities, with males representing 5.20% of the total salary distribution. This department also exhibits the largest gender-based pay gap between male and female employees, indicating a substantial need for salary equity reforms.
+
+These findings emphasize the need for addressing both the overall gender pay gap and the significant regional and departmental disparities in salary structure, ensuring a more balanced and equitable compensation framework across the organization.
 
 ### Performance rating
 This page shows the analysis of the performance rating of the genders across different regions and departments
-![performance_rating](performance_rating.png)
+![](performance_rating.png)
 #### Findings
 
 ### Salary and Bonus
