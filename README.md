@@ -88,6 +88,7 @@ The report comprises of eight(8) pages:
 - Bonus performance
 - Salary structure to compliance
 
+You can interact with the report [here](https://app.powerbi.com/view?r=eyJrIjoiNDA3NGRmY2UtZGUyOC00MTk5LTg1MWYtNDY2ZGU1NWVhODU3IiwidCI6ImYzMzNmMDE4LWE3OTYtNGQ5Yy1iNmM4LThmY2RmYzAyNzEwYiJ9)
 ### Overview 
 The Overview page shows the summary of the insight obtained from the analysis of the data:
 
