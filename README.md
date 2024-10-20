@@ -127,21 +127,38 @@ These findings emphasize the need for addressing both the overall gender pay gap
 ### Performance rating
 This page shows the analysis of the performance rating of the genders across different regions and departments
 ![](performance_rating.png)
-#### Findings
+`#### Findings`
+- The analysis of employee ratings within the Palmoria Group reveals notable disparities in employee distribution and performance across different gender categories. Employees rated as "Average" constitute the largest group, with a count of 417, which is 686.79% higher than those rated as "Very Poor," the smallest group at 53 employees. Notably, males in the "Average" category make up 22.72% of the total employee count, highlighting their dominant presence in this performance bracket.
+- In terms of performance ratings, females achieve the highest average rating at 3.29%, closely followed by the "Unknown" gender category at 3.28%, while males trail slightly with an average rating of 2.98%. This suggests that despite their larger representation, males tend to perform slightly lower, on average, compared to their female counterparts
+- When looking at the average count of employees, males again lead with an average of 77 employees, followed by females at 72 and the "Unknown" category at 6.5. This distribution reflects both the higher presence of males in the workforce and the relatively balanced performance between genders.
 
 ### Salary and Bonus
 This page shows analysis of total payout (i.e. salary and bonus) to different genders across the regions and different departments
 ![](Bonus_and_salary.png)
-#### Findings
+`#### Findings`
+- The analysis of total payouts within the Palmoria Group reveals significant gender-based disparities in compensation. Males received the highest total payout of ₦35,645,806.94, followed by females at ₦32,212,645.68, and those categorized as "Unknown" at ₦3,151,435.96. Males accounted for 50.20% of the overall payout, indicating a notable concentration of compensation within this group.
+- In terms of average payouts, males again lead with an average of ₦11,881,935.65, followed by females at ₦10,737,548.56, and the "Unknown" category significantly lower at ₦1,050,478.65. This indicates not only a gap in total payout but also a substantial difference in average compensation across genders
+- Regionally, in the Kaduna division, male employees made up 19.57% of the total payout, highlighting the concentration of male compensation in this region. Additionally, in Product Management, males accounted for 5.17% of the total payout, further emphasizing the gender imbalance in high-paying roles within specific departments
+
+These findings underscore the need for a closer examination of compensation practices within the Palmoria Group to ensure fair and equitable distribution of payouts across genders and departments, addressing the existing pay gaps and promoting a more balanced compensation structure.
 
 ### Bonus performance
 This page shows the analysis of amount earned as bonus by the genders across the regions and different departments
 ![](bonus_performance.png)
-#### Findings
+`#### Findings`
+- The analysis of total bonuses within the Palmoria Group reveals a notable gender dynamic in the distribution of bonuses. Females received the highest total bonus amounting to ₦1,040,105.68, closely followed by males at ₦1,024,756.94, while employees categorized as "Unknown" received a considerably smaller total bonus of ₦101,415.96. Females accounted for 48.01% of the total bonuses, making them the leading recipients in this category.
+- In terms of average bonuses, females again lead with an average bonus of ₦86,675.47, followed by males at ₦85,396.41, and the "Unknown" group at ₦8,451.33. This reflects a slightly higher average bonus allocation for females, despite the larger overall male workforce
+- Within specific departments, females in the Research and Development division accounted for 5.30% of the total bonuses, further illustrating their prominent role in bonus distribution in this critical area
+
+These figures highlight a relatively balanced bonus allocation between genders, with females slightly ahead in both total and average bonuses. However, the disparity in the "Unknown" category suggests the need for clearer gender identification and equitable bonus distribution across all employee groups and departments
 
 ### Salary structure to compliance
 This page shows the analysis of how compliant the salary structure of the genders across the regions and different departments aligns with the minimum wage 
 ![](salary_to_compliance.png)
-#### Findings
+`#### Findings`
+- The analysis of the salary structure within the Palmoria Group reveals a significant non-compliance with the national minimum wage of ₦100,000. A substantial 78.46% of the salary structure falls below this threshold, leaving only 21.54% of the workforce earning wages that meet or exceed the minimum wage requirement
+- When examining compliance by gender, employees categorized as "Unknown" demonstrate the highest level of compliance, with 37.6% earning at or above the minimum wage. Males follow closely with 34.91% compliance, while females have the lowest compliance rate, with only 27.49% of female employees meeting the minimum wage standard. This discrepancy highlights a potential gender-based inequality in salary distribution that warrants further investigation
+- Additionally, a notable portion of the workforce, 12.43%, falls within the salary range of ₦70,000 to ₦79,999, further emphasizing the prevalence of salaries below the required minimum wage
 
+These findings underscore the urgent need for salary structure reforms within the Palmoria Group to ensure compliance with minimum wage regulations and to address the gender disparities in wage distribution. Implementing such changes will be essential to fostering a fair and equitable compensation system across the organization.
 
