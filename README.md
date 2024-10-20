@@ -1,7 +1,8 @@
 # Gender Analysis for Palmoria Group
 
 ## Project Overview
-![data-analytics-trends](data-analytics-trends.jpg)
+
+![landing_page](landing_page.png)
 
 
 The Palmoria Group, a prominent manufacturing company headquartered in Nigeria, is currently grappling with critical issues surrounding gender inequality across its three regional divisions. Recently, the company has come under scrutiny in the media, with a notable headline branding it a "Manufacturing Patriarchy." This negative portrayal poses a significant threat to Palmoria's strategic goals of regional and international expansion. Key concerns, such as gender pay disparities and broader systemic inequalities, have emerged as potential challenges that, if left unresolved, may escalate further. This analysis seeks to provide a comprehensive assessment of the Palmoria Group's stance on gender inequality, offering insights to guide necessary interventions and ensure alignment with best practices for equity and inclusion.
@@ -86,10 +87,6 @@ The report comprises of eight(8) pages:
 - Salary and Bonus
 - Bonus performance
 - Salary structure to compliance
-
-### Landing page
-This is the Landing/Home page  where one can navigate to other pages:
-![landing_page](landing_page.png)
 
 ### Overview 
 The Overview page shows the summary of the insight obtained from the analysis of the data:
