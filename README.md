@@ -25,7 +25,7 @@ The datasets were extracted from an Excel file, and the following transformation
 
 ## Skills/concepts demonstrated:
 The following Power Bi features were incorporated
--  Bookmarkig and Filtering
+-  Bookmarking and Filtering
 -  DAX and Quick measures
 -  Page Navigation
 -  Modelling
